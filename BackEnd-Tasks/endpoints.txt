@@ -1,0 +1,12 @@
+
+    API END POINTS FOR Assign-Mentor
+    --------------------------------
+    '/students' - GET - API to get all students
+    '/mentors'  - GET - API to get all mentors
+    '/createMentor' - POST -  API to create a Mentor
+    '/createStudent'  - POST - API to create a Student
+    '/assignmentor/:mentorId/:studentId'  - POST - API to assign a Student to a Mentor
+    '/studentsWithoutMentor'  - GET - API to get students without a mentor
+    '/assignMentor/:studentId/:mentorId'  - PUT - API to assign or change Mentor for a particular Student
+    '/studentsForMentor/:mentorId' - GET - API to get all students for mentor
+    '/previousMentor/:studentId' - GET - API to show the previously assigned mentor for a particular student
